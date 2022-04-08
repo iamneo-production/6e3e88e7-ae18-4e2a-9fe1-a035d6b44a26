@@ -1,0 +1,70 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>supervised_user_circle</mat-icon>
+    </button>
+    <span>Popular plans</span>
+    <span class="exam-spacer"></span>
+    <mat-icon>supervised_user_circle</mat-icon>
+    <span>Addon</span>
+    <span class="exam-space"></span>
+    <mat-icon>supervised_user_circle</mat-icon>
+    <h4>Notifications</h4>
+    <span class="example-spacer"></span>
+    <button mat-raised-button color="warn"> Logout</button><br><br>
+    </mat-toolbar><br>
+  
+      
+    <form class="example-one" #addForm="ngForm" >
+          
+            <table class="example-full-wid1" cellspacing="10"><tr>
+              <td>
+              <mat-form-field class="example-full-wid" appearance="outline">
+            <input matInput type="text" placeholder="Enter Recharge Type" ngModel name="rechargeType" id="Type"><input matInput>
+           
+          </mat-form-field>
+  
+          </td>
+  
+          <td>
+            <mat-form-field class="example-full-wid" appearance="outline">
+            <input matInput type="text" placeholder="Enter your name" ngModel name="rechargeName" id="Name"><input matInput>
+        
+    
+             </mat-form-field></td>
+            </tr></table>
+          
+          
+          
+            <table class="example-full-wid1" cellspacing="10"><tr>
+            <td><mat-form-field class="example-full-wid" appearance="outline">
+              <input matInput  type="text" placeholder="Enter number to recharge" ngModel name="rechargeNumber" id="Number">
+              <input matInput>
+            
+              </mat-form-field></td>
+              <td><mat-form-field class="example-full-wid" appearance="outline">
+                <input matInput type="text" placeholder="Enter email id" ngModel name="rechargeEmail" id="email">
+                <input matInput>
+               
+                </mat-form-field></td>
+              </tr></table>
+                <table class="example-full-wid1" cellspacing="10"><tr>
+               <td> <mat-form-field class="example-full-wid" appearance="outline">
+                  <input matInput type="text" placeholder="Enter Recharge plan" ngModel name="rechargePlan" id="plan">
+                  <input matInput>
+                  
+                  </mat-form-field></td>
+                <td><mat-form-field class="example-full-wid" appearance="outline">
+                    <input matInput type="text" placeholder="Recharge Price" ngModel name="rechargePrice" id="price">
+                    <input matInput>
+                
+                    </mat-form-field></td>
+                      </tr></table>
+                      <span class="fitter-spacer"></span>
+                     
+                     
+                      <button mat-raised-button color="accent" [disabled]="addForm.invalid" (click)="recharge(addForm)">Recharge</button>
+                     </form>
+                      
+          
+                        
+

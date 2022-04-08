@@ -1,0 +1,22 @@
+.exam-spacer {
+    flex: 1.5 2 auto;
+  }
+  .exam-space {
+      flex: 1.5 2 auto;
+    }
+  .example-spacer {
+      flex: 1 2 auto;
+    }
+.boxtwo{
+    margin-left:60px;
+    margin-top:100px;
+    width:250px;
+    padding-top: 70px;
+    padding-bottom: 100px;
+   height: 230px;
+   background-color:rgb(85, 226, 231);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border:rgb(85, 173, 231);
+}
