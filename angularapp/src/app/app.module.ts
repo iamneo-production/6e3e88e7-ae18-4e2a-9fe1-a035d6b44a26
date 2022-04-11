@@ -31,6 +31,10 @@ import { AddPrepaidComponent } from './add-prepaid/add-prepaid.component';
 import { AddonsComponent } from './addons/addons.component';
 import { EditAddonsComponent } from './edit-addons/edit-addons.component';
 import { AddAddonsComponent } from './add-addons/add-addons.component';
+import { UserAddonComponent } from './user-addon/user-addon.component';
+import { UserAddondisplayComponent } from './user-addondisplay/user-addondisplay.component';
+import { UserDisplayComponent } from './user-display/user-display.component';
+import { ViewdetailsComponent } from './viewdetails/viewdetails.component';
 
 
 
@@ -52,6 +56,10 @@ const routes: Routes = [
     AddonsComponent,
     EditAddonsComponent,
     AddAddonsComponent,
+    UserAddonComponent,
+    UserAddondisplayComponent,
+    UserDisplayComponent,
+    ViewdetailsComponent,
   ],
   imports: [
     BrowserModule,
